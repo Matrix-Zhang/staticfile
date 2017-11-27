@@ -12,10 +12,10 @@ keywords = ["iron", "web", "http", "file"]
 cache = ["filetime"]
 
 [dependencies]
-iron = "0.5"
-mount = "0.3"
+iron = "0.6"
+mount = "0.4"
 time = "0.1"
-url = "1.1"
+url = "1.6"
 
 [dependencies.filetime]
 version = "0.1"
@@ -23,5 +23,5 @@ optional = true
 
 [dev-dependencies]
 hyper = "0.10"
-router = "0.5"
+router = "0.6"
 iron-test = "0.5"
